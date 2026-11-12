@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="flex gap-3 mb-5 justify-between mt-3 ml-3 mr-3">
+      <div class="flex gap-2">
+        <input id="mongol" class="w-6 h-6 flex" type="checkbox" />mongol
+        <input id="code" class="w-6 h-6 flex" type="checkbox" />code
+        <input id="delhii" class="w-6 h-6 flex" type="checkbox" />delhii
+      </div>
+      <div class="flex gap-3">
+        <button
+          class="w-25 h-10 border-1 rounded-[5px] flex justify-center items-center"
+          onclick="showAll()"
+        >
+          Buh asuult
+        </button>
+        <button
+          class="w-25 h-10 border-1 rounded-[5px] flex justify-center items-center"
+          onclick="random()"
+        >
+          Random
+        </button>
+      </div>
+    </div>
+    <div id="buh-asuult" class="flex gap-4 flex-col"></div>
+    <div class="flex gap-4 flex-col" id="Random-asuult"></div>
+    <script src="asuult.js"></script>
+  </body>
+</html>
